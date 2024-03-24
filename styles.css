@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* list-style: none; */
+}
+/*
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.rubik-headings {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+*/
+
+body {
+    width: 100%;
+    background: #ccd0fd;
+    height: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav {
+    height: 40vh;
+    background: url(Images/header-image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+}
+
+header nav h1 {
+    padding-top: 6%;
+    letter-spacing: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#services-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    margin: auto;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+#services-intro h1 {
+    width: 80%;
+    margin: auto;
+    letter-spacing: 5px;
+}
+
+/* #services-intro h2 {
+    font-size: 2rem;
+    width: 80%;
+    margin: auto;
+} */
+
+#section-heading2-one {
+    width: 100;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#services-intro h1 {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#section-heading2-two {
+    width: 80%;
+    font-weight: 200;
+}
+
+#section-heading2-two span {
+    color: limegreen;
+    font-weight: 500;
+}
+
+#services-offered {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+
+.services-offered-container {
+    width: auto;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(50, 205, 50, 1);
+}
+
+.container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container p {
+    margin-top: 10px;
+}
+
+.more {
+    display: none;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 2851px) {
+    header nav h1 {
+        font-size: 10rem;
+        padding-top: 7%;
+        letter-spacing: 15px;
+    }
+    #services-intro h1 {
+        font-size: 7rem;
+        letter-spacing: 8px;
+    }
+    #section-heading2-one {
+        font-size: 4rem;
+        letter-spacing: 7px;
+    }
+    #section-heading2-two {
+        font-size: 4rem;
+    }
+    .services-offered-container h2{
+        font-size: 4rem;
+    }
+    .services-offered-container p{
+        font-size: 3rem;
+    }
+    .more {
+        font-size: 3rem;
+    }
+    .button {
+        font-size: 3rem;
+    }
+}
+
+/* @media screen and (max-width: 1440px) {
+    header nav h1 {
+        font-size: 4rem;
+        padding-top: 7%;
+        letter-spacing: 10px;
+    }
+    #services-intro h1 {
+        font-size: 4rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-one {
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-two {
+        font-size: 2rem;
+    }
+    .services-offered-container h2{
+        font-size: 1.5rem;
+    }
+    .services-offered-container p{
+        font-size: 1.5rem;
+    }
+    .more {
+        font-size: 1.5rem;
+    }
+    .button {
+        font-size: 1.5rem;
+    }
+} */
+
+@media screen and (max-width: 1440px) {
+    header nav h1 {
+        font-size: 3rem;
+        padding-top: 7%;
+        letter-spacing: 10px;
+    }
+    #services-intro h1 {
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-one {
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-two {
+        font-size: 1.5rem;
+    }
+    .services-offered-container h2{
+        font-size: 1rem;
+    }
+    .services-offered-container p{
+        font-size: 1rem;
+    }
+    .more {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #services-offered {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header nav {
+        height: vh;
+    }
+    header nav h1 {
+        font-size: 2rem;
+        padding-top: 7%;
+        letter-spacing: 6px;
+    }
+    #services-intro h1 {
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-one {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-two {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header nav {
+        height: 25vh;
+    }
+    header nav h1 {
+        font-size: 1.5rem;
+        padding-top: 7%;
+    }
+    #services-intro h1 {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-one {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+    #section-heading2-two {
+        font-size: 1rem;
+    }
+    .services-offered-container h2{
+        font-size: 1rem;
+    }
+    .services-offered-container p{
+        font-size: 1rem;
+    }
+    .more {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services-offered-container h2{
+        font-size: 1rem;
+    }
+    .services-offered-container p{
+        font-size: 13px;
+    }
+    .more {
+        font-size: 13px;
+    }
+}
